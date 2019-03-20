@@ -1,0 +1,53 @@
+Build started at 2019-03-20T09:39:46.565441
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.49.2
+Source dir: /home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling
+Build dir: /home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build_clang
+Build type: native build
+Project name: gn
+Project version: undefined
+Native C compiler: clang (clang 6.0.0-1ubuntu2 "clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)")
+Native C++ compiler: clang++ (clang 6.0.0-1ubuntu2 "clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Dependency mpi found: YES (cached)
+Dependency mpi found: YES (cached)
+Running compile:
+Working directory:  /tmp/tmpbb7yvhdc
+Command line:  clang++ /tmp/tmpbb7yvhdc/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbb7yvhdc/output.exe -O0 -fpermissive -Wl,--start-group -lumfpack -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library umfpack found: YES
+Build targets in project: 1
+Option buildtype is: release [default: debug]
+Found ninja-1.8.2 at /usr/local/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpvbs6lcx2
+Command line:  clang++ /tmp/tmpvbs6lcx2/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpvbs6lcx2/output.obj -std=c++11 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++11: YES
+Running compile:
+Working directory:  /tmp/tmp1s6alfq6
+Command line:  clang++ /tmp/tmp1s6alfq6/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp1s6alfq6/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/usr/bin:/usr/lib/llvm-6.0/bin:/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../x86_64-linux-gnu/bin
+libraries: =/usr/lib/llvm-6.0/lib/clang/6.0.0:/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0:/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib/../lib64:/usr/lib/x86_64-linux-gnu:/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../..:/usr/lib/llvm-6.0/bin/../lib:/lib:/usr/lib
+
+Compiler stderr:
+ 

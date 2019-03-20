@@ -1,0 +1,8 @@
+[options]
+backend = ninja
+buildtype = release
+warning_level = 1
+cpp_args = -w
+
+[properties]
+

@@ -1,0 +1,42 @@
+[
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "c++ -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -w -pthread  -MD -MQ 'basic@exe/main.cc.o' -MF 'basic@exe/main.cc.o.d' -o 'basic@exe/main.cc.o' -c ../main.cc",
+    "file": "../main.cc"
+  },
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "c++ -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -w -pthread  -MD -MQ 'basic@exe/src_utilities.cc.o' -MF 'basic@exe/src_utilities.cc.o.d' -o 'basic@exe/src_utilities.cc.o' -c ../src/utilities.cc",
+    "file": "../src/utilities.cc"
+  },
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "c++ -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -w -pthread  -MD -MQ 'basic@exe/src_sparseDiracMatrixClass.cc.o' -MF 'basic@exe/src_sparseDiracMatrixClass.cc.o.d' -o 'basic@exe/src_sparseDiracMatrixClass.cc.o' -c ../src/sparseDiracMatrixClass.cc",
+    "file": "../src/sparseDiracMatrixClass.cc"
+  },
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "c++ -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -w -pthread  -MD -MQ 'basic@exe/src_importanceSamplingIntegrator.cc.o' -MF 'basic@exe/src_importanceSamplingIntegrator.cc.o.d' -o 'basic@exe/src_importanceSamplingIntegrator.cc.o' -c ../src/importanceSamplingIntegrator.cc",
+    "file": "../src/importanceSamplingIntegrator.cc"
+  },
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "c++ -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -w -pthread  -MD -MQ 'basic@exe/src_gaussianRandomGenerator.cc.o' -MF 'basic@exe/src_gaussianRandomGenerator.cc.o.d' -o 'basic@exe/src_gaussianRandomGenerator.cc.o' -c ../src/gaussianRandomGenerator.cc",
+    "file": "../src/gaussianRandomGenerator.cc"
+  },
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "c++ -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -w -pthread  -MD -MQ 'basic@exe/src_determinantWrapper.cc.o' -MF 'basic@exe/src_determinantWrapper.cc.o.d' -o 'basic@exe/src_determinantWrapper.cc.o' -c ../src/determinantWrapper.cc",
+    "file": "../src/determinantWrapper.cc"
+  },
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "cc -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread  -MD -MQ 'basic@exe/src_ranlxd.c.o' -MF 'basic@exe/src_ranlxd.c.o.d' -o 'basic@exe/src_ranlxd.c.o' -c ../src/ranlxd.c",
+    "file": "../src/ranlxd.c"
+  },
+  {
+    "directory": "/home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build",
+    "command": "cc -Ibasic@exe -I. -I.. -I../include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread  -MD -MQ 'basic@exe/src_suiteSparseDet.c.o' -MF 'basic@exe/src_suiteSparseDet.c.o.d' -o 'basic@exe/src_suiteSparseDet.c.o' -c ../src/suiteSparseDet.c",
+    "file": "../src/suiteSparseDet.c"
+  }
+]

@@ -1,0 +1,55 @@
+Build started at 2019-03-20T09:38:52.385621
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.49.2
+Source dir: /home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling
+Build dir: /home/jesus/MHPC/mhpc_2018-19/Gross-Neveu_MC_importance_sampling/build
+Build type: native build
+Project name: gn
+Project version: undefined
+Native C compiler: cc (gcc 7.3.0 "cc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0")
+Native C++ compiler: c++ (gcc 7.3.0 "c++ (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Dependency mpi found: YES (cached)
+Dependency mpi found: YES (cached)
+Running compile:
+Working directory:  /tmp/tmpnrwagqxo
+Command line:  c++ /tmp/tmpnrwagqxo/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnrwagqxo/output.exe -O0 -fpermissive -Wl,--start-group -lumfpack -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library umfpack found: YES
+Build targets in project: 1
+Option buildtype is: release [default: debug]
+Option warning_level is: 1 [default: 3]
+Found ninja-1.8.2 at /usr/local/bin/ninja
+Running compile:
+Working directory:  /tmp/tmp5qo7kecc
+Command line:  c++ /tmp/tmp5qo7kecc/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp5qo7kecc/output.obj -std=c++11 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++11: YES
+Running compile:
+Working directory:  /tmp/tmph_ub2c5q
+Command line:  c++ /tmp/tmph_ub2c5q/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmph_ub2c5q/output.obj -w -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

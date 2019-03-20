@@ -13,8 +13,8 @@ OBJS = main.o 									\
 	   src/sparseDiracMatrixClass.o				\
 	   src/importanceSamplingIntegrator.o 		\
 	   src/gaussianRandomGenerator.o 			\
-	   src/ranlxd.o 							\
 	   src/determinantWrapper.o 				\
+	   src/ranlxd.o 							\
 	   src/suiteSparseDet.o
 
 EXE = gn
